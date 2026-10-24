@@ -1,0 +1,12 @@
+# Laptop (CPU). Install torch first from the CPU index:
+#   pip install torch torchaudio --index-url https://download.pytorch.org/whl/cpu
+transformers>=4.45
+huggingface_hub
+numpy
+scipy
+soundfile
+fastapi
+uvicorn[standard]
+python-multipart
+silero-vad
+av
